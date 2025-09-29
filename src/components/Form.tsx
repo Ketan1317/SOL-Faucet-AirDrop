@@ -116,7 +116,7 @@ const Form = () => {
       </div>
 
       {msg && (
-        <div className="p-2 text-white bg-gray-800 rounded break-words whitespace-pre-wrap">
+        <div className="p-2 text-white overflow-auto bg-gray-800 rounded break-words whitespace-pre-wrap">
           {msg}
         </div>
       )}
